@@ -4,10 +4,6 @@ import { lexicalEditor } from '@payloadcms/richtext-lexical'
 
 const Posts: CollectionConfig = {
   slug: 'posts',
-  admin: {
-    defaultColumns: ['title', 'author', 'category', 'tags', 'status'],
-    useAsTitle: 'title',
-  },
   access: {
     read: () => true,
   },
